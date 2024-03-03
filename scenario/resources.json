@@ -1,0 +1,19 @@
+{    
+    "objects": [
+        {
+            "name": "workforce",
+            "cat": "resources",
+            "id": "resource_workforce"
+        },
+        {
+            "name": "wood",
+            "cat": "resources",
+            "id": "resource_wood"
+        },
+        {
+            "name": "stones",
+            "cat": "resources",
+            "id": "resource_stone"
+        }
+    ]
+}

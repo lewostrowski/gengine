@@ -1,0 +1,27 @@
+{
+    "objects": [
+        {
+            "name": "Branches gathering site",
+            "id": "gatcher_branches",
+            "cat": "gathering",
+            "constRequire": [
+                {"id": "resource_workforce", "type": "objects", "amount": 2}
+            ],
+            "constGains": [
+                {"id": "resource_wood", "type": "objects", "amount": 5}
+            ]
+        },
+        {
+            "name": "Wooden hut",
+            "id": "hut_wood",
+            "cat": "houses",
+            "initRequire": [
+                {"id": "resource_wood", "type": "objects", "amount": 10},
+                {"id": "resource_workforce", "type": "objects", "amount": 5}
+            ],
+            "constGains": [
+                {"id": "resource_workforce", "type": "objects", "amount": 5}
+            ]
+        }
+    ]
+}

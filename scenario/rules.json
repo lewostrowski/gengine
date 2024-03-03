@@ -1,0 +1,11 @@
+{
+    "rules": {
+        "gameName": "test1",
+        "dismantleGain": 0.5
+    },
+    "reality": [
+        {"id": "hut_wood", "type": "objects", "amount": 1},
+        {"id": "resource_workforce", "type": "objects", "amount": 5},
+        {"id": "resource_wood", "type": "objects", "amount": 5}
+    ]
+}
