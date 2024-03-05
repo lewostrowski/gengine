@@ -1,17 +1,6 @@
 {
     "objects": [
         {
-            "name": "Branches gathering site",
-            "id": "gatcher_branches",
-            "cat": "gathering",
-            "constRequire": [
-                {"id": "resource_workforce", "type": "objects", "amount": 2}
-            ],
-            "constGains": [
-                {"id": "resource_wood", "type": "objects", "amount": 5}
-            ]
-        },
-        {
             "name": "Wooden hut",
             "id": "hut_wood",
             "cat": "houses",
@@ -21,6 +10,22 @@
             ],
             "constGains": [
                 {"id": "resource_workforce", "type": "objects", "amount": 5}
+            ]
+        },
+        {
+            "name": "Cooking pit",
+            "id": "cooking_pit",
+            "cat": "houses",
+            "initRequire": [
+                {"id": "resource_wood", "type": "objects", "amount": 5},
+                {"id": "resource_workforce", "type": "objects", "amount": 3}
+            ],
+            "constGains": [
+                {"id": "resource_workforce", "type": "objects", "amount": 3}
+            ],
+            "constRequire": [
+            	{"id": "resource_workforce", "type": "objects", "amount": 1},
+            	{"id": "resource_wood", "type": "objects", "amount": 1}
             ]
         }
     ]

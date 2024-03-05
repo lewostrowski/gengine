@@ -14,6 +14,28 @@
             "name": "stones",
             "cat": "resources",
             "id": "resource_stone"
+        },
+        {
+            "name": "Branches gathering site",
+            "id": "gatcher_branches",
+            "cat": "gathering",
+            "constRequire": [
+                {"id": "resource_workforce", "type": "objects", "amount": 2}
+            ],
+            "constGains": [
+                {"id": "resource_wood", "type": "objects", "amount": 5}
+            ]
+        },
+        {
+            "name": "Stones gathering site",
+            "id": "gatcher_stones",
+            "cat": "gathering",
+            "constRequire": [
+                {"id": "resource_workforce", "type": "objects", "amount": 2}
+            ],
+            "constGains": [
+                {"id": "resource_stone", "type": "objects", "amount": 3}
+            ]
         }
     ]
 }
