@@ -10,7 +10,8 @@
             ],
             "constGains": [
                 {"id": "resource_workforce", "type": "objects", "amount": 5}
-            ]
+            ],
+            "turnToComplete": 3
         },
         {
             "name": "Cooking pit",
@@ -26,7 +27,8 @@
             "constRequire": [
             	{"id": "resource_workforce", "type": "objects", "amount": 1},
             	{"id": "resource_wood", "type": "objects", "amount": 1}
-            ]
+            ],
+            "turnToComplete": 2
         }
     ]
 }
